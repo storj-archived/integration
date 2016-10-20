@@ -16,4 +16,4 @@ RUN source ~/.nvm/nvm.sh; \
     nvm use default;
 COPY src/ /home/storj/
 RUN source ~/.nvm/nvm.sh; \
-    ./install.sh
+    ./code/install.sh

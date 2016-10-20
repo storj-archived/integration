@@ -1,30 +1,30 @@
 [submodule "src/storjshare-cli"]
-	path = src/storjshare-cli
+	path = src/code/storjshare-cli
 	url = https://github.com/Storj/storjshare-cli.git
 [submodule "src/storj-complex"]
-	path = src/storj-complex
+	path = src/code/storj-complex
 	url = https://github.com/Storj/complex.git
 [submodule "src/storj-bridge"]
-	path = src/storj-bridge
+	path = src/code/storj-bridge
 	url = https://github.com/Storj/bridge
 [submodule "src/storj-lib"]
-	path = src/storj-lib
+	path = src/code/storj-lib
 	url = https://github.com/Storj/core
 [submodule "src/storj-mongodb-adapter"]
-	path = src/storj-mongodb-adapter
+	path = src/code/storj-mongodb-adapter
 	url = https://github.com/Storj/mongodb-adapter
 [submodule "src/storj-service-storage-models"]
-	path = src/storj-service-storage-models
+	path = src/code/storj-service-storage-models
 	url = https://github.com/Storj/service-storage-models
 [submodule "src/storj-service-mailer"]
-	path = src/storj-service-mailer
+	path = src/code/storj-service-mailer
 	url = https://github.com/Storj/service-mailer
 [submodule "src/storj-service-middleware"]
-	path = src/storj-service-middleware
+	path = src/code/storj-service-middleware
 	url = https://github.com/Storj/service-middleware
 [submodule "src/storj-service-error-types"]
-	path = src/storj-service-error-types
+	path = src/code/storj-service-error-types
 	url = https://github.com/Storj/service-error-types
 [submodule "src/storj-service-auditor"]
-	path = src/storj-service-auditor
+	path = src/code/storj-service-auditor
 	url = https://github.com/Storj/service-auditor
