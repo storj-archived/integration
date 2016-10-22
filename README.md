@@ -32,5 +32,5 @@ adding the module to the modules array, so that it will run `npm install` and
 To run a test network, first run a shell for the image, and run the script:
 
 ```
-./scripts/run_everything.sh
+./start_everything.sh
 ```
