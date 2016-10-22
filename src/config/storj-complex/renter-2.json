@@ -1,0 +1,25 @@
+{
+  "type": "Renter",
+  "opts": {
+    "logLevel": 3,
+    "amqpUrl": "amqp://localhost",
+    "amqpOpts": {},
+    "mongoUrl": "mongodb://localhost:27017/storj-sandbox",
+    "mongoOpts": {},
+    "networkPrivateKey": "/root/config/storj-complex/private.key",
+    "networkOpts": {
+      "rpcPort": 4001,
+      "rpcAddress": "localhost",
+      "doNotTraverseNat": true,
+      "tunnelServerPort": 5001,
+      "tunnelGatewayRange": {
+        "min": 0,
+        "max": 0
+      },
+      "maxTunnels": 0,
+      "seedList": [],
+      "bridgeUri": "http://localhost:8080",
+      "maxConnections": 250
+    }
+  }
+}

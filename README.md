@@ -1,7 +1,8 @@
-Storj Integration/Staging Tree
+Storj integration/staging tree
 ==============================
 
-This repository is for the purposes of running a suite of integration tests with all network components of the Storj network.
+This repository is for development and integration testing of all of the
+distributed Storj network services.
 
 To build docker image:
 
@@ -24,7 +25,12 @@ To add a new repository:
 ```bash
 git submodule add https://github.com/Storj/<repo_name> src/code/<package_name>
 ```
-**Note**: All items in `src/` are copied into the `/home/storj/` directory in the docker image.
+Then include installation steps in `src/code/install.sh`, this will likely include
+adding the module to the modules array, so that it will run `npm install` and
+`npm link`, and then make sure to link those dependencies with each other.
 
-Then include installation steps into `src/code/install.sh`, this will likely include addinng the module to the modules array, so that it will run `npm install` and `npm link`, and then make sure to link those dependencies with each other.
+To run a test network, first run a shell for the image, and run the script:
 
+```
+./scripts/run_everything.sh
+```

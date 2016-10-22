@@ -1,0 +1,48 @@
+{
+  "application": {
+    "mirrors": 6,
+    "privateKey": "e12c84e9e818d5f8f92d87865fb3602adaac484cfa981d8d0f94a2ba6ea5de44"
+  },
+  "storage": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "name": "storj-sandbox",
+    "user": null,
+    "pass": null,
+    "mongos": false,
+    "ssl": false
+  },
+  "server": {
+    "host": "localhost",
+    "port": 8080,
+    "timeout": 240000,
+    "ssl": {
+      "cert": null,
+      "key": null,
+      "ca": [],
+      "redirect": 80
+    },
+    "public": {
+      "host": "localhost",
+      "port": 8080
+    }
+  },
+  "complex": {
+    "rpcUrl": "http://localhost:8081",
+    "rpcUser": "user",
+    "rpcPassword": "pass"
+  },
+  "logger": {
+    "level": 4
+  },
+  "mailer": {
+    "host": "smtp.domain",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "user@domain",
+      "pass": "pass"
+    },
+    "from": "user@domain"
+  }
+}

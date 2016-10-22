@@ -1,0 +1,39 @@
+{
+  "keypath": "/root/config/storj-share/farmer-3/id_ecdsa",
+  "address": "1EkMi5CFSkPY8jeAdfu3y1tUPCERQAf9xV",
+  "storage": {
+    "path": "/root/config/storj-share/farmer-3",
+    "size": 5,
+    "unit": "GB"
+  },
+  "network": {
+    "address": "localhost",
+    "port": 9200,
+    "seeds": [
+      "storj://localhost:4000/04040e9f27ef714e81e271c84e844e4c123bc867",
+      "storj://localhost:4001/04040e9f27ef714e81e271c84e844e4c123bc867",
+      "storj://localhost:4002/04040e9f27ef714e81e271c84e844e4c123bc867",
+      "storj://localhost:4003/04040e9f27ef714e81e271c84e844e4c123bc867",
+      "storj://localhost:4004/04040e9f27ef714e81e271c84e844e4c123bc867",
+      "storj://localhost:4005/04040e9f27ef714e81e271c84e844e4c123bc867"
+    ],
+    "opcodes": [
+      "0f01020202",
+      "0f02020202",
+      "0f03020202"
+    ],
+    "forward": false,
+    "tunnels": 0,
+    "tunnelport": 9201,
+    "gateways": {
+      "min": 0,
+      "max": 0
+    },
+    "concurrency": 3
+  },
+  "telemetry": {
+    "service": "https://status.storj.io",
+    "enabled": false
+  },
+  "loglevel": 4
+}
