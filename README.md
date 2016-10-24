@@ -34,3 +34,15 @@ To run a test network, first run a shell for the image, and run the script:
 ```
 ./start_everything.sh
 ```
+
+To create a container for the image (this should give a hash as the result):
+
+```
+sudo docker create -t -i storj-integration bash
+```
+
+To start and attach to the container:
+
+```
+sudo docker start -a -i <hash_of_container>
+```
