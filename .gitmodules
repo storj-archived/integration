@@ -28,3 +28,6 @@
 [submodule "src/storj-service-auditor"]
 	path = src/code/storj-service-auditor
 	url = https://github.com/Storj/service-auditor
+[submodule "src/code/storj"]
+	path = src/code/storj
+	url = https://github.com/Storj/core-cli
