@@ -3,13 +3,16 @@
 	url = https://github.com/Storj/storjshare-cli.git
 [submodule "src/storj-complex"]
 	path = src/code/storj-complex
-	url = https://github.com/Storj/complex.git
+	url = https://github.com/braydonf/storj-complex
+        branch = hdkeys
 [submodule "src/storj-bridge"]
 	path = src/code/storj-bridge
-	url = https://github.com/Storj/bridge
+	url = https://github.com/braydonf/storj-bridge
+        branch = hdkeys
 [submodule "src/storj-lib"]
 	path = src/code/storj-lib
-	url = https://github.com/Storj/core
+	url = https://github.com/braydonf/storj-lib
+        branch = hdkeys
 [submodule "src/storj-mongodb-adapter"]
 	path = src/code/storj-mongodb-adapter
 	url = https://github.com/Storj/mongodb-adapter
