@@ -10,12 +10,12 @@
     "address": "localhost",
     "port": 9000,
     "seeds": [
-      "storj://localhost:4000/04040e9f27ef714e81e271c84e844e4c123bc867",
-      "storj://localhost:4001/04040e9f27ef714e81e271c84e844e4c123bc867",
-      "storj://localhost:4002/04040e9f27ef714e81e271c84e844e4c123bc867",
-      "storj://localhost:4003/04040e9f27ef714e81e271c84e844e4c123bc867",
-      "storj://localhost:4004/04040e9f27ef714e81e271c84e844e4c123bc867",
-      "storj://localhost:4005/04040e9f27ef714e81e271c84e844e4c123bc867"
+      "storj://localhost:4000/aeff4f47d5156ee2d21d32bd2386d06c5f452c26",
+      "storj://localhost:4001/aeff4f47d5156ee2d21d32bd2386d06c5f452c26",
+      "storj://localhost:4002/aeff4f47d5156ee2d21d32bd2386d06c5f452c26",
+      "storj://localhost:4003/aeff4f47d5156ee2d21d32bd2386d06c5f452c26",
+      "storj://localhost:4004/aeff4f47d5156ee2d21d32bd2386d06c5f452c26",
+      "storj://localhost:4005/aeff4f47d5156ee2d21d32bd2386d06c5f452c26"
     ],
     "opcodes": [
       "0f01020202",
