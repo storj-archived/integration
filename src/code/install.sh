@@ -1,15 +1,16 @@
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-modules=( "storj-bridge" \
-          "storj-complex" \
-          "storj-lib" \
-          "storj-mongodb-adapter" \
-          "storj-service-auditor" \
-          "storj-service-error-types" \
-          "storj-service-mailer" \
-          "storj-service-middleware" \
-          "storj-service-storage-models" \
-          "storjshare-cli" )
+modules=("storj" \
+         "storj-bridge" \
+         "storj-complex" \
+         "storj-lib" \
+         "storj-mongodb-adapter" \
+         "storj-service-auditor" \
+         "storj-service-error-types" \
+         "storj-service-mailer" \
+         "storj-service-middleware" \
+         "storj-service-storage-models" \
+         "storjshare-cli" )
 
 for i in "${modules[@]}"
 do
