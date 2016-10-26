@@ -60,7 +60,7 @@ docker build -t storj-integration .
 **To create a container with the image**:
 
 ```
-sudo docker create -t -i storj-integration bash
+sudo docker create -p 8080:8080 -t -i storj-integration bash
 ```
 
 **To start and attach to the container**:
