@@ -6,7 +6,8 @@
     "amqpOpts": {},
     "mongoUrl": "mongodb://localhost:27017/storj-sandbox",
     "mongoOpts": {},
-    "networkPrivateKey": "/root/config/storj-complex/private.key",
+    "networkPrivateExtendedKey": "/root/config/storj-complex/hd-private.key",
+    "networkIndex": 2,
     "networkOpts": {
       "rpcPort": 4001,
       "rpcAddress": "localhost",
