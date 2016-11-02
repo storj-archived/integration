@@ -7,12 +7,11 @@
         branch = hdkeys
 [submodule "src/storj-bridge"]
 	path = src/code/storj-bridge
-	url = https://github.com/braydonf/storj-bridge
-        branch = hdkeys
+	url = https://github.com/bookchin/storj-bridge
+        branch = master
 [submodule "src/storj-lib"]
 	path = src/code/storj-lib
-	url = https://github.com/braydonf/storj-lib
-        branch = hdkeys
+	url = https://github.com/Storj/storj-lib
 [submodule "src/storj-mongodb-adapter"]
 	path = src/code/storj-mongodb-adapter
 	url = https://github.com/Storj/mongodb-adapter
@@ -33,4 +32,4 @@
 	url = https://github.com/Storj/service-auditor
 [submodule "src/code/storj"]
 	path = src/code/storj
-	url = https://github.com/Storj/core-cli
+	url = https://github.com/bookchin/storj-core-cli

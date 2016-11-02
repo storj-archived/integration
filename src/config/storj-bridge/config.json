@@ -1,16 +1,7 @@
 {
-  "application": {
-    "mirrors": 6,
-    "privateKey": "e12c84e9e818d5f8f92d87865fb3602adaac484cfa981d8d0f94a2ba6ea5de44"
-  },
   "storage": {
-    "host": "127.0.0.1",
-    "port": 27017,
-    "name": "storj-sandbox",
-    "user": null,
-    "pass": null,
-    "mongos": false,
-    "ssl": false
+    "mongoUrl": "mongo://127.0.0.1:27017/storj-sandbox",
+    "mongoOpts": {}
   },
   "server": {
     "host": "localhost",
