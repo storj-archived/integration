@@ -35,6 +35,9 @@ To run a test network, run the script within the container:
 
 ## Development
 
+To update a module in the container, change the `package.json` either in the container or
+before building the image.
+
 To development on a module, clone the repository, and then `npm link` it in:
 ```
 git clone <git_url_for_module>
@@ -44,6 +47,4 @@ cd <this_project_path>
 npm link <module_name>
 ```
 
-This will create a symlink in `node_modules` to the development branch. To build a docker
-image with the branch, update the `package.json` to point to the git repository and
-rebuild the image and run testing.
+This will create a symlink in `node_modules` to the development branch.
