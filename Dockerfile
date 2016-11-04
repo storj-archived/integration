@@ -13,10 +13,12 @@ RUN source /root/.nvm/nvm.sh; \
     nvm alias default v4; \
     nvm use default; \
     npm install pm2 -g;
-COPY src/code/ /root/code/
+COPY package.json /root/package.json
+COPY config /root/config
+COPY scripts /root/scripts
+COPY bin /root/bin
 RUN source /root/.nvm/nvm.sh; \
-    /root/code/install.sh;
-COPY src/config /root/config
-COPY src/start_everything.sh /root/start_everything.sh
-COPY src/stop_everything.sh /root/stop_everything.sh
+    cd /root; \
+    npm install; \
+    npm dedupe;
 EXPOSE 8080
