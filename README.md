@@ -6,25 +6,23 @@ distributed Storj network services.
 
 ## Build Docker Container
 
-To build docker image:
+To build docker image, from within this repository:
 
 
 ```bash
-git clone https://github.com/storj/integration
-cd integration
-sudo docker build -t storj-integration .
+docker build -t storj-integration .
 ```
 
 Create a persistant container:
 
 ```bash
-sudo docker create -p 8080:8080 -t -i storj-integration bash
+docker create -p 8080:8080 -t -i storj-integration bash
 ```
 
 And to start and attach to the container:
 
 ```bash
-sudo docker start -a -i <hash_of_container>
+docker start -a -i <hash_of_container>
 ```
 
 To run a test network, run the script within the container:

@@ -12,13 +12,13 @@ RUN source /root/.nvm/nvm.sh; \
     nvm install v4; \
     nvm alias default v4; \
     nvm use default; \
-    npm install pm2 -g;
+    npm install pm2 -g; \
+    npm install npm@3 -g;
 COPY package.json /root/package.json
 COPY config /root/config
 COPY scripts /root/scripts
 COPY bin /root/bin
 RUN source /root/.nvm/nvm.sh; \
     cd /root; \
-    npm install; \
-    npm dedupe;
+    npm install;
 EXPOSE 8080
