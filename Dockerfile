@@ -9,11 +9,10 @@ RUN chmod +x /etc/init.d/mongod
 WORKDIR /root
 RUN wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 RUN source /root/.nvm/nvm.sh; \
-    nvm install v4; \
-    nvm alias default v4; \
+    nvm install v6; \
+    nvm alias default v6; \
     nvm use default; \
-    npm install pm2 -g; \
-    npm install npm@3 -g;
+    npm install pm2 -g;
 COPY package.json /root/package.json
 COPY config /root/config
 COPY scripts /root/scripts

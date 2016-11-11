@@ -6,9 +6,9 @@
     "storjshare": "./bin/storjshare"
   },
   "dependencies": {
-    "storjshare-cli": "bookchin/storj-farmer",
+    "storjshare-cli": "storj/storjshare-cli",
     "storj-complex": "storj/complex",
-    "storj-bridge": "storj/bridge",
+    "storj-bridge": "bookchin/storj-bridge",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-storage-models": "storj/service-storage-models",
@@ -16,6 +16,6 @@
     "storj-service-middleware": "storj/service-middleware",
     "storj-service-error-types": "storj/service-error-types",
     "storj-service-auditor": "storj/service-auditor",
-    "storj": "bookchin/storj-core-cli"
+    "storj": "storj/core-cli"
   }
 }
