@@ -11,7 +11,7 @@
     "storj-bridge": "storj/bridge",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
-    "storj-service-storage-models": "bookchin/storj-service-storage-models",
+    "storj-service-storage-models": "storj/service-storage-models",
     "storj-service-mailer": "storj/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
     "storj-service-error-types": "storj/service-error-types",
