@@ -4,6 +4,10 @@ Storj integration/staging tree
 This repository is for development and integration testing of all of the
 distributed Storj network services.
 
+## Development & Testing
+
+To update a module in the container, change the `package.json` before building the image.
+
 ## Build Docker Container
 
 To build docker image, from within this repository:
@@ -25,24 +29,55 @@ And to start and attach to the container:
 docker start -a -i <hash_of_container>
 ```
 
-To run a test network, run the script within the container:
+To run a *sandbox* test network, run the script within the container:
 
+First edit the file at `./config/storj-bridge/config.json` to point to a
+email server, so that you can test the mailer and registration.
+
+And then run everything *(4 farmers, 6 renters and 1 bridge)*:
 ```bash
 ./scripts/start_everything.sh
 ```
 
-## Development
-
-To update a module in the container, change the `package.json` either in the container or
-before building the image.
-
-To development on a module, clone the repository, and then `npm link` it in:
+And the perform any activity that needs testing using the cli, first you'll
+need to register:
 ```
-git clone <git_url_for_module>
-cd <module_name>
-npm link
-cd <this_project_path>
-npm link <module_name>
+./bin/storj --url=http://localhost:8080 register
 ```
 
-This will create a symlink in `node_modules` to the development branch.
+And then check your email and activate the account, and you can then run:
+```
+./bin/storj --url=http://localhost:8080 login
+```
+
+And then verify that services are working together as expected. For example to test
+upload and download:
+```
+./bin/storj --url=http://localhost:8080 add-bucket
+./bin/storj --url=http://localhost:8080 upload-file <bucket_hash> <filename>
+./bin/storj --url=http://localhost:8080 download-file <bucket_hash> <file_hash>
+```
+
+You can then use pm2 to look at logs and status for each service by name:
+```
+pm2 status
+pm2 log
+pm2 log bridge
+pm2 log bridge --lines 100
+pm2 log renter-1
+pm2 log renter-6
+pm2 log farmer-1
+pm2 log farmer-4
+```
+
+And check that mongo has the data that is expected:
+```
+mongod
+use storj-sandbox
+```
+
+To stop all of the services, and exit the container:
+```
+./scripts/stop_everything.sh
+exit
+```
