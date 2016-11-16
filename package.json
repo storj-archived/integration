@@ -8,7 +8,7 @@
   "dependencies": {
     "storjshare-cli": "storj/storjshare-cli",
     "storj-complex": "storj/complex",
-    "storj-bridge": "pgerbes1/bridge",
+    "storj-bridge": "pgerbes1/bridge#0ec1b94fefb22abb09e8395c3aa3aa94a1310bc3",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-storage-models": "storj/service-storage-models",
