@@ -4,11 +4,11 @@ Storj integration/staging tree
 This repository is for development and integration testing of all of the
 distributed Storj network services.
 
-## Development & Testing
+## Development
 
 To update a module in the container, change the `package.json` before building the image.
 
-## Build Docker Container
+## Build
 
 To build docker image, from within this repository:
 
@@ -28,6 +28,8 @@ And to start and attach to the container:
 ```bash
 docker start -a -i <hash_of_container>
 ```
+
+## Testing
 
 To run a *sandbox* test network, run the script within the container:
 
