@@ -31,18 +31,18 @@ docker start -a -i <hash_of_container>
 
 ## Testing
 
-To run a *sandbox* test network, run the script within the container:
+To run a *sandbox* test network:
 
 First edit the file at `./config/storj-bridge/config.json` to point to a
 email server, so that you can test the mailer and registration.
 
-And then run everything *(4 farmers, 6 renters and 1 bridge)*:
+And then run this script to start everything *(4 farmers, 6 renters and 1 bridge)*:
 ```bash
 ./scripts/start_everything.sh
 ```
 
-And the perform any activity that needs testing using the cli, first you'll
-need to register:
+To perform any activity that needs testing using a bridge client you'll likely
+first need to register:
 ```
 ./bin/storj --url=http://localhost:8080 register
 ```
