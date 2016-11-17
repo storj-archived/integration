@@ -21,3 +21,4 @@ RUN source /root/.nvm/nvm.sh; \
     cd /root; \
     npm install;
 EXPOSE 8080
+ENV STORJ_BRIGE http://localhost:8080
