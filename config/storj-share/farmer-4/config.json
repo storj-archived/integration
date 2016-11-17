@@ -35,5 +35,6 @@
     "service": "https://status.storj.io",
     "enabled": false
   },
-  "loglevel": 4
+  "loglevel": 4,
+  "bridgeUri": "http://localhost:8080"
 }

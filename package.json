@@ -6,14 +6,14 @@
     "storjshare": "./bin/storjshare"
   },
   "dependencies": {
-    "storjshare-cli": "storj/storjshare-cli",
+    "storjshare-cli": "braydonf/storjshare-cli",
     "storj-complex": "storj/complex",
     "storj-bridge": "storj/bridge",
-    "storj-lib": "storj/core",
+    "storj-lib": "braydonf/storj-lib",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-storage-models": "storj/service-storage-models",
     "storj-service-mailer": "storj/service-mailer",
-    "storj-service-middleware": "bookchin/storj-service-middleware#935eabe1329c7383fbb69dad7aff2015ea7972c2",
+    "storj-service-middleware": "storj/service-middleware",
     "storj-service-error-types": "storj/service-error-types",
     "storj-service-auditor": "storj/service-auditor",
     "storj": "storj/core-cli"
