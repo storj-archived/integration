@@ -6,10 +6,10 @@
     "storjshare": "./bin/storjshare"
   },
   "dependencies": {
-    "storjshare-cli": "braydonf/storjshare-cli",
+    "storjshare-cli": "braydonf/storjshare-cli#af686ba0f7f60af1ca7b42b137a8c9e768e8ca28",
     "storj-complex": "storj/complex",
     "storj-bridge": "storj/bridge",
-    "storj-lib": "braydonf/storj-lib",
+    "storj-lib": "braydonf/storj-lib#c9152f6de6715f6404a981a1a6110a321ee23565",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-storage-models": "storj/service-storage-models",
     "storj-service-mailer": "storj/service-mailer",
