@@ -9,7 +9,7 @@
     "storjshare-cli": "storj/storjshare-cli",
     "storj-complex": "storj/complex",
     "storj-bridge": "storj/bridge",
-    "storj-lib": "braydonf/storj-lib#3a91a3c92c5effb27933d6f44004d74eb4b24832",
+    "storj-lib": "braydonf/storj-lib#afc5a64eb89601c900b75386811bd668f6046ead",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-storage-models": "storj/service-storage-models",
     "storj-service-mailer": "storj/service-mailer",
