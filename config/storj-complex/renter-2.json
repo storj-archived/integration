@@ -8,6 +8,8 @@
     "mongoOpts": {},
     "networkPrivateExtendedKey": "/root/config/storj-complex/hd-private.key",
     "networkIndex": 2,
+    "totalRenters": 6,
+    "renterOverlap": 2,
     "networkOpts": {
       "rpcPort": 4001,
       "rpcAddress": "localhost",
