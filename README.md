@@ -20,7 +20,7 @@ docker build -t storj-integration .
 Create a persistant container:
 
 ```bash
-docker create -p 8080:8080 -t -i storj-integration bash
+docker create -p 8080:8080 -p 9000:9000 -p 9100:9100 -p 9200:9200 -p 9300:9300 -t -i storj-integration bash
 ```
 
 And to start and attach to the container:
