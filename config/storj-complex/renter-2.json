@@ -7,11 +7,9 @@
     "mongoUrl": "mongodb://localhost:27017/storj-sandbox",
     "mongoOpts": {},
     "networkPrivateExtendedKey": "/root/config/storj-complex/hd-private.key",
-    "renterTotal": 6,
-    "renterOverlap": 2,
     "networkIndex": 2,
     "totalRenters": 6,
-    "renterOverlap": 2,
+    "renterOverlap": 1,
     "networkOpts": {
       "rpcPort": 4001,
       "rpcAddress": "localhost",
