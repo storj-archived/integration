@@ -21,4 +21,8 @@ RUN source /root/.nvm/nvm.sh; \
     cd /root; \
     npm install;
 EXPOSE 8080
+EXPOSE 9000
+EXPOSE 9100
+EXPOSE 9200
+EXPOSE 9300
 RUN echo "export STORJ_BRIDGE=\"http://localhost:8080\"" >> /root/.bashrc
