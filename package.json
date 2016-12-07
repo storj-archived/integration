@@ -6,16 +6,16 @@
     "storjshare": "./bin/storjshare"
   },
   "dependencies": {
-    "storjshare-cli": "bookchin/storj-farmer#upgrade/storj-lib-6",
-    "storj-complex": "bookchin/storj-complex#upgrade/storj-lib-6",
-    "storj-bridge": "bookchin/storj-bridge#upgrade/storj-lib-6",
-    "storj-lib": "bookchin/storj-core",
-    "storj-mongodb-adapter": "bookchin/storj-mongodb-adapter#upgrade/storj-lib-6",
-    "storj-service-storage-models": "bookchin/storj-service-storage-models#upgrade/storj-lib-6",
+    "storjshare-cli": "storj/storjshare-cli",
+    "storj-complex": "storj/complex",
+    "storj-bridge": "storj/bridge",
+    "storj-lib": "storj/core",
+    "storj-mongodb-adapter": "storj/mongodb-adapter",
+    "storj-service-storage-models": "storj/service-storage-models",
     "storj-service-mailer": "storj/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
     "storj-service-error-types": "storj/service-error-types",
-    "storj-service-auditor": "bookchin/storj-service-auditor#upgrade/storj-lib-6",
-    "storj": "bookchin/storj-core-cli#upgrade/storj-lib-6"
+    "storj-service-auditor": "storj/service-auditor",
+    "storj": "storj/core-cli"
   }
 }
