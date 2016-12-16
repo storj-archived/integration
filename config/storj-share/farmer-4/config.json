@@ -9,6 +9,9 @@
   "network": {
     "address": "localhost",
     "port": 9300,
+    "renterWhitelist": [
+      "xpub6ABDixD5jpQUDWNzHFh2WgAuANKDeTHmeXqLYaXsUuzpvfN8ZvbfBMXXbYkoq1kCvvpbiNE9zAzeC9VQh8dMNDb8mjc8cUh8F4jaUmFkyjr"
+    ],
     "seeds": [
       "storj://localhost:4000/337472da3068fa05d415262baf4df5bada8aefdc",
       "storj://localhost:4001/b2e1173bf733aeaacf79bf73a5a65bc5a912d923",
