@@ -44,20 +44,20 @@ And then run this script to start everything *(4 farmers, 6 renters and 1 bridge
 To perform any activity that needs testing using a bridge client you'll likely
 first need to register:
 ```
-./bin/storj --url=http://localhost:8080 register
+./bin/storj register
 ```
 
 And then check your email and activate the account, and you can then run:
 ```
-./bin/storj --url=http://localhost:8080 login
+./bin/storj login
 ```
 
 And then verify that services are working together as expected. For example to test
 upload and download:
 ```
-./bin/storj --url=http://localhost:8080 add-bucket
-./bin/storj --url=http://localhost:8080 upload-file <bucket_hash> <filename>
-./bin/storj --url=http://localhost:8080 download-file <bucket_hash> <file_hash>
+./bin/storj add-bucket
+./bin/storj upload-file <bucket_hash> <filename>
+./bin/storj download-file <bucket_hash> <file_hash>
 ```
 
 You can then use pm2 to look at logs and status for each service by name:
