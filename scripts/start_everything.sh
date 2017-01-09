@@ -8,6 +8,7 @@ service mongod start
 
 #storjbridge
 pm2 start -n bridge $root_dir/bin/storj-bridge -- -c $root_dir/config/storj-bridge/config.json -d $root_dir/config/storj-bridge
+pm2 start -n monitor $root_dir/bin/storj-monitor -- -c $root_dir/config/storj-bridge/monitor.json
 
 #storjrenters
 pm2 start -n landlord $root_dir/bin/storj-complex -- -c $root_dir/config/storj-complex/landlord.json

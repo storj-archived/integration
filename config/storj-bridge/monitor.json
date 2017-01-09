@@ -1,0 +1,20 @@
+{
+  "storage": {
+    "mongoUrl": "mongodb://127.0.0.1:27017/storj-sandbox",
+    "mongoOpts": {}
+  },
+  "complex": {
+    "rpcUrl": "http://localhost:8081",
+    "rpcUser": "user",
+    "rpcPassword": "pass"
+  },
+  "logger": {
+    "level": 4
+  },
+  "application": {
+    "maxInterval": "3m",
+    "minInterval": "1m",
+    "queryNumber": 100,
+    "pingConcurrency": 10
+  }
+}
