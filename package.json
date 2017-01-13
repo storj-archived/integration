@@ -11,7 +11,7 @@
     "storj-bridge": "braydonf/storj-bridge#b5b33ea79e13c17f945ab83512f7afd982f381dc",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
-    "storj-service-storage-models": "braydonf/storj-service-storage-models#e6350a35fe6111392354b1d9571dfbd21e3ff135",
+    "storj-service-storage-models": "storj/service-storage-models",
     "storj-service-mailer": "storj/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
     "storj-service-error-types": "storj/service-error-types",
