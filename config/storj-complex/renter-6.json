@@ -1,7 +1,7 @@
 {
   "type": "Renter",
   "opts": {
-    "logLevel": 3,
+    "logLevel": 4,
     "amqpUrl": "amqp://localhost",
     "amqpOpts": {},
     "mongoUrl": "mongodb://localhost:27017/storj-sandbox",
