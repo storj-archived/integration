@@ -8,10 +8,10 @@
   "dependencies": {
     "storjshare-cli": "storj/storjshare-cli",
     "storj-complex": "storj/complex",
-    "storj-bridge": "braydonf/bridge",
+    "storj-bridge": "braydonf/bridge#7182b1d257e8174cfa82349d134a29738b14535c",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
-    "storj-service-storage-models": "braydonf/service-storage-models",
+    "storj-service-storage-models": "braydonf/service-storage-models#454a73ac11b21a94724074bb01be0edf3af74478",
     "storj-service-mailer": "storj/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
     "storj-service-error-types": "storj/service-error-types",
