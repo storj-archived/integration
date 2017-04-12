@@ -8,7 +8,7 @@
   "dependencies": {
     "storjshare-cli": "storj/storjshare-cli",
     "storj-complex": "storj/complex",
-    "storj-bridge": "storj/bridge",
+    "storj-bridge": "braydonf/storj-bridge#1cac086d41cb4cdc23a24eb080576284f621ba63",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-storage-models": "storj/service-storage-models",
