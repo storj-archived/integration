@@ -1,5 +1,8 @@
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.."
 
+#redis
+service redis-server start
+
 #rabbitmq
 service rabbitmq-server start
 

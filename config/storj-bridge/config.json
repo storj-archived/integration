@@ -35,5 +35,9 @@
       "pass": "pass"
     },
     "from": "user@domain"
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379
   }
 }
