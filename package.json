@@ -8,12 +8,12 @@
   "dependencies": {
     "storjshare-cli": "storj/storjshare-cli",
     "storj-complex": "storj/complex",
-    "storj-bridge": "dylanlott/bridge#7e033fba6a698baeb833c6899990325e98f13c71",
+    "storj-bridge": "dylanlott/bridge#b5bbafc1891db8b27d2447eea371e213b57c3707",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-storage-models": "storj/service-storage-models",
     "storj-service-mailer": "storj/service-mailer",
-    "storj-service-middleware": "storj/service-middleware",
+    "storj-service-middleware": "dylanlott/service-middleware#f4b54c3a00b3625db659ff21237171981f45f0e6",
     "storj-service-error-types": "storj/service-error-types",
     "storj-service-auditor": "storj/service-auditor",
     "storj": "storj/core-cli"
