@@ -23,8 +23,8 @@ pm2 start -n renter-5 $root_dir/bin/storj-complex -- -c $root_dir/config/storj-c
 pm2 start -n renter-6 $root_dir/bin/storj-complex -- -c $root_dir/config/storj-complex/renter-6.json
 
 #storjfarmers
-pm2 start -n farmer-1 $root_dir/bin/storjshare start -d -c $root_dir/config/storj-share/farmer-1/config.json
-pm2 start -n farmer-2 $root_dir/bin/storjshare start -d -c $root_dir/config/storj-share/farmer-2/config.json
-pm2 start -n farmer-3 $root_dir/bin/storjshare start -d -c $root_dir/config/storj-share/farmer-3/config.json
-pm2 start -n farmer-4 $root_dir/bin/storjshare start -d -c $root_dir/config/storj-share/farmer-4/config.json
+pm2 start -n farmer-1 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-1/config.json
+pm2 start -n farmer-2 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-2/config.json
+pm2 start -n farmer-3 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-3/config.json
+pm2 start -n farmer-4 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-4/config.json
 
