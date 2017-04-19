@@ -1,42 +1,40 @@
 {
-  "keypath": "/root/config/storj-share/farmer-1/id_ecdsa",
-  "address": "1EkMi5CFSkPY8jeAdfu3y1tUPCERQAf9xV",
-  "storage": {
-    "path": "/root/config/storj-share/farmer-1",
-    "size": 5,
-    "unit": "GB"
+  "paymentAddress": "1EkMi5CFSkPY8jeAdfu3y1tUPCERQAf9xV",
+  "opcodeSubscriptions": [
+    "0f01020202",
+    "0f02020202",
+    "0f03020202"
+  ],
+  "maxOfferConcurrency": 3,
+  "bridgeUri": "http://localhost:8080",
+  "renterWhitelist": [
+    "xpub6ABDixD5jpQUDWNzHFh2WgAuANKDeTHmeXqLYaXsUuzpvfN8ZvbfBMXXbYkoq1kCvvpbiNE9zAzeC9VQh8dMNDb8mjc8cUh8F4jaUmFkyjr"
+  ],
+  "seedList": [
+    "storj://localhost:4000/337472da3068fa05d415262baf4df5bada8aefdc",
+    "storj://localhost:4001/b2e1173bf733aeaacf79bf73a5a65bc5a912d923",
+    "storj://localhost:4002/b78c3ad6007e316e38a2bab0d567a617f6b98fe6",
+    "storj://localhost:4003/17fd5bf43cc8959b771ca5a83b38e9ed4bcdf0b7",
+    "storj://localhost:4004/933da501e4e18ee0881ad46bc8040d1a4863e3fa",
+    "storj://localhost:4005/495d86ed0f833a591a5f936d85d23defe776abff"
+  ],
+  "rpcAddress": "127.0.0.1",
+  "rpcPort": 9000,
+  "doNotTraverseNat": false,
+  "maxTunnels": 0,
+  "maxConnections": 150,
+  "tunnelGatewayRange": {
+    "min": 4001,
+    "max": 4003
   },
-  "network": {
-    "address": "localhost",
-    "port": 9000,
-    "renterWhitelist": [
-      "xpub6ABDixD5jpQUDWNzHFh2WgAuANKDeTHmeXqLYaXsUuzpvfN8ZvbfBMXXbYkoq1kCvvpbiNE9zAzeC9VQh8dMNDb8mjc8cUh8F4jaUmFkyjr"
-    ],
-    "seeds": [
-      "storj://localhost:4000/337472da3068fa05d415262baf4df5bada8aefdc",
-      "storj://localhost:4001/b2e1173bf733aeaacf79bf73a5a65bc5a912d923",
-      "storj://localhost:4002/b78c3ad6007e316e38a2bab0d567a617f6b98fe6",
-      "storj://localhost:4003/17fd5bf43cc8959b771ca5a83b38e9ed4bcdf0b7",
-      "storj://localhost:4004/933da501e4e18ee0881ad46bc8040d1a4863e3fa",
-      "storj://localhost:4005/495d86ed0f833a591a5f936d85d23defe776abff"
-    ],
-    "opcodes": [
-      "0f01020202",
-      "0f02020202",
-      "0f03020202"
-    ],
-    "forward": false,
-    "tunnels": 0,
-    "tunnelport": 9001,
-    "gateways": {
-      "min": 9002,
-      "max": 9004
-    },
-    "concurrency": 3
+  "joinRetry": {
+    "times": 3,
+    "interval": 5000
   },
-  "telemetry": {
-    "service": "https://status.storj.io",
-    "enabled": false
-  },
-  "loglevel": 4
+  "offerBackoffLimit": 4,
+  "networkPrivateKey": "38aad9167f1d95f051795507b2aa53173273ff8c186e031eace2c6809abc0021",
+  "loggerVerbosity": 4,
+  "storagePath": "/root/config/storj-share/farmer-1",
+  "storageAllocation": "5GB",
+  "enableTelemetryReporting": false
 }
