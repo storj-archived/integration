@@ -5,7 +5,7 @@
     "0f02020202",
     "0f03020202"
   ],
-  "maxOfferConcurrency": 3,
+  "maxOfferConcurrency": 16,
   "bridgeUri": "http://localhost:8080",
   "renterWhitelist": [
     "xpub6ABDixD5jpQUDWNzHFh2WgAuANKDeTHmeXqLYaXsUuzpvfN8ZvbfBMXXbYkoq1kCvvpbiNE9zAzeC9VQh8dMNDb8mjc8cUh8F4jaUmFkyjr"
@@ -19,7 +19,7 @@
     "storj://localhost:4005/495d86ed0f833a591a5f936d85d23defe776abff"
   ],
   "rpcAddress": "127.0.0.1",
-  "rpcPort": 9000,
+  "rpcPort": 9001,
   "doNotTraverseNat": false,
   "maxTunnels": 0,
   "maxConnections": 150,
@@ -35,6 +35,6 @@
   "networkPrivateKey": "38aad9167f1d95f051795507b2aa53173273ff8c186e031eace2c6809abc0021",
   "loggerVerbosity": 4,
   "storagePath": "/root/config/storj-share/farmer-1",
-  "storageAllocation": "5GB",
+  "storageAllocation": "256GB",
   "enableTelemetryReporting": false
 }

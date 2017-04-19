@@ -27,4 +27,15 @@ pm2 start -n farmer-1 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/s
 pm2 start -n farmer-2 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-2/config.json
 pm2 start -n farmer-3 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-3/config.json
 pm2 start -n farmer-4 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-4/config.json
-
+pm2 start -n farmer-5 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-5/config.json
+pm6 start -n farmer-6 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-6/config.json
+pm2 start -n farmer-7 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-7/config.json
+pm2 start -n farmer-8 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-8/config.json
+pm2 start -n farmer-9 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-9/config.json
+pm2 start -n farmer-10 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-10/config.json
+pm2 start -n farmer-11 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-11/config.json
+pm2 start -n farmer-12 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-12/config.json
+pm2 start -n farmer-13 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-13/config.json
+pm2 start -n farmer-14 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-14/config.json
+pm2 start -n farmer-15 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-15/config.json
+pm2 start -n farmer-16 $root_dir/bin/storjshare-start -- -d -c $root_dir/config/storj-share/farmer-16/config.json

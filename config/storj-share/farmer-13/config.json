@@ -19,7 +19,7 @@
     "storj://localhost:4005/495d86ed0f833a591a5f936d85d23defe776abff"
   ],
   "rpcAddress": "127.0.0.1",
-  "rpcPort": 9003,
+  "rpcPort": 9013,
   "doNotTraverseNat": false,
   "maxTunnels": 0,
   "maxConnections": 150,
@@ -32,9 +32,9 @@
     "interval": 5000
   },
   "offerBackoffLimit": 4,
-  "networkPrivateKey": "817862ddd865be0749589d442cceae914d5cfd3ec0e039cca3cd5f5026c9a880",
+  "networkPrivateKey": "878d65728717a0b342f3b44389abb7a988352f4efa35dd0c3bf61c6c777455db",
   "loggerVerbosity": 4,
-  "storagePath": "/root/config/storj-share/farmer-3",
+  "storagePath": "/root/config/storj-share/farmer-13",
   "storageAllocation": "256GB",
   "enableTelemetryReporting": false
 }
