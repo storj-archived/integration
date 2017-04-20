@@ -16,7 +16,7 @@ To build docker image, from within this repository:
 docker build -t storj-integration .
 ```
 
-Create a persistant container, ports for the bridge and farmers are exposed for testing uploading and downloading:
+Create a persistent container, ports for the bridge and farmers are exposed for testing uploading and downloading:
 
 ```bash
 docker create -p 8080:8080 -p 9000:9000 -p 9001:9001 -p 9002:9002 -p 9003:9003 -p 9004:9004 -p 9005:9005 -p 9006:9006 -p 9007:9007 -p 9008:9008 -p 9009:9009 -p 9010:9010 -p 9011:9011 -p 9012:9012 -p 9013:9013 -p 9014:9014 -p 9015:9015 -p 9016:9016 -t -i storj-integration bash
@@ -35,7 +35,7 @@ To run a *sandbox* test network:
 First edit the file at `./config/storj-bridge/config.json` to point to a
 email server, so that you can test the mailer and registration.
 
-And then run this script to start everything *(4 farmers, 6 renters and 1 bridge)*:
+And then run this script to start everything *(16 farmers, 6 renters and 1 bridge)*:
 ```bash
 ./scripts/start_everything.sh
 ```
@@ -69,7 +69,7 @@ exit
 
 ## Testing File Transfers
 
-Using the CLI included with https://github.com/Storj/libstorj you can registeer and transfer files for development and testing.
+Using the CLI included with https://github.com/Storj/libstorj you can register and transfer files for development and testing.
 
 ```
 STORJ_BRIDGE=http://localhost:8080 ./src/storj register
