@@ -52,7 +52,7 @@ pm2 stop farmer-4
 
 And check that mongo has the data that is expected:
 ```
-mongod
+mongo
 use storj-sandbox
 ```
 
