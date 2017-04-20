@@ -1,17 +1,14 @@
 {
   "bin": {
-    "storj": "./bin/storj",
     "storj-bridge": "./bin/storj-bridge",
     "storj-complex": "./bin/storj-complex",
-    "storjshare": "./bin/storjshare"
+    "storjshare-start": "./bin/storjshare-start"
   },
   "dependencies": {
-    "storj": "storj/core-cli",
     "storj-bridge": "braydonf/storj-bridge#318cc6aac2c277d7007ec19e31fbeb7d6acbbb8c",
     "storj-complex": "storj/complex",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
-    "storj-service-auditor": "storj/service-auditor",
     "storj-service-error-types": "storj/service-error-types",
     "storj-service-mailer": "storj/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
