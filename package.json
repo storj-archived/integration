@@ -5,14 +5,14 @@
     "storjshare-start": "./bin/storjshare-start"
   },
   "dependencies": {
-    "storj-bridge": "braydonf/storj-bridge#318cc6aac2c277d7007ec19e31fbeb7d6acbbb8c",
+    "storj-bridge": "storj/bridge",
     "storj-complex": "storj/complex",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-error-types": "storj/service-error-types",
     "storj-service-mailer": "storj/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
-    "storj-service-storage-models": "braydonf/storj-service-storage-models#76be31c7883d229e0d7864273f8c3d6bcc4e83ce",
+    "storj-service-storage-models": "storj/service-storage-models",
     "storjshare-daemon": "storj/storjshare-daemon"
   }
 }
