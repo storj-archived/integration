@@ -3,7 +3,8 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 RUN echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-3.2.list
 RUN apt-get update
-RUN apt-get install -y mongodb-org rabbitmq-server redis-server build-essential wget git python libkrb5-dev vim
+RUN apt-get upgrade -y
+RUN apt-get install -y mongodb-org rabbitmq-server redis-server build-essential wget git python libkrb5-dev vim emacs
 ADD https://raw.githubusercontent.com/mongodb/mongo/v3.2/debian/init.d /etc/init.d/mongod
 RUN chmod +x /etc/init.d/mongod
 WORKDIR /root
