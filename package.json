@@ -12,7 +12,7 @@
     "storj-service-error-types": "storj/service-error-types",
     "storj-service-mailer": "storj/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
-    "storj-service-storage-models": "braydonf/storj-service-storage-models#d0115e0f8626ef09bdf6bbbdf3699fdc2088b51d",
+    "storj-service-storage-models": "braydonf/storj-service-storage-models#46105c513501591196ccbbf2a3dfad9648fa0e79",
     "storjshare-daemon": "braydonf/storjshare-daemon#7cb292258c4b60369476137164ce7e4e54cc5ff3"
   }
 }
