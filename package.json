@@ -6,13 +6,13 @@
   },
   "dependencies": {
     "storj-bridge": "braydonf/storj-bridge#636d9a55a794872a29ce865c525c2c7b5ed0fa30",
-    "storj-complex": "braydonf/storj-complex#2913b7daa5037213f0617d873f805b3cbe7efd85",
+    "storj-complex": "braydonf/storj-complex#50e5911cf01a758ae0099afe0c1fa5983fe50785",
     "storj-lib": "braydonf/storj-lib#48fa6d142acde270b8c8e5374c7987529b89a93c",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-error-types": "storj/service-error-types",
     "storj-service-mailer": "storj/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
     "storj-service-storage-models": "braydonf/storj-service-storage-models#d0115e0f8626ef09bdf6bbbdf3699fdc2088b51d",
-    "storjshare-daemon": "braydonf/storjshare-daemon#b78035339ec03f7f86df5fbd64fb6dba20b9bc4e"
+    "storjshare-daemon": "braydonf/storjshare-daemon#7cb292258c4b60369476137164ce7e4e54cc5ff3"
   }
 }
