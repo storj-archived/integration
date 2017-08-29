@@ -7,7 +7,7 @@
   "dependencies": {
     "storj-bridge": "braydonf/storj-bridge#636d9a55a794872a29ce865c525c2c7b5ed0fa30",
     "storj-complex": "braydonf/storj-complex#2913b7daa5037213f0617d873f805b3cbe7efd85",
-    "storj-lib": "braydonf/storj-lib#605308b7698b5f4c0202e279f15c8ffa21dd60aa",
+    "storj-lib": "braydonf/storj-lib#48fa6d142acde270b8c8e5374c7987529b89a93c",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-error-types": "storj/service-error-types",
     "storj-service-mailer": "storj/service-mailer",
