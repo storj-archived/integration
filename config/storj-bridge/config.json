@@ -46,6 +46,9 @@
       "retargetPeriod": 10000,
       "retargetCount": 10
     },
+    "publishBenchThreshold": 4000,
+    "publishTotal": 36,
+    "publishBenchTotal": 9,
     "shardsPerMinute": 1000,
     "freeTier": {
       "up": {
