@@ -13,6 +13,6 @@
     "storj-service-mailer": "storj/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
     "storj-service-storage-models": "storj/service-storage-models",
-    "storjshare-daemon": "braydonf/storjshare-daemon#7cb292258c4b60369476137164ce7e4e54cc5ff3"
+    "storjshare-daemon": "storj/storjshare-daemon"
   }
 }
