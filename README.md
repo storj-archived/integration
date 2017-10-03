@@ -28,6 +28,8 @@ And to start and attach to the container:
 docker start -a -i <hash_of_container>
 ```
 
+*Note: If you're running os macos, you may need to increase the CPUs and memory available to docker.*
+
 ## Running the Sandbox
 
 To run a *sandbox* test network:
