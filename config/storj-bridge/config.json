@@ -41,7 +41,7 @@
     "port": 6379
   },
   "application": {
-    "activateSIP6": false,
+    "activateSIP6": true,
     "powOpts": {
       "retargetPeriod": 10000,
       "retargetCount": 10
