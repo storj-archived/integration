@@ -28,7 +28,7 @@ And to start and attach to the container:
 docker start -a -i <hash_of_container>
 ```
 
-*Note: If you're running os macos, you may need to increase the CPUs and memory available to docker.*
+*Note: If you're running macos, you may need to increase the CPUs and memory available to docker.*
 
 ## Running the Sandbox
 
@@ -84,3 +84,9 @@ STORJ_BRIDGE=http://localhost:8080 ./src/storj add-bucket
 STORJ_BRIDGE=http://localhost:8080 ./src/storj upload-file <bucket_hash> <filename>
 STORJ_BRIDGE=http://localhost:8080 ./src/storj download-file <bucket_hash> <file_hash>
 ```
+
+## Troubleshooting
+
+- One benefit of having an entire network in a container is that code is shared for all services, change it once and restart the services to get insight into problems when developing.
+- Make sure that all of the services are running, take a look at `./script/start_everything.sh` for what should be running. In particular make sure that rabbitmq-server is running.
+- As an entire network is being run, there are considerable resources that are needed, make sure that docker has enough CPUs and memory available to it. Otherwise you can reduce the number of farmers and renters that are started by editing `./script/start_everything.sh`, this will have an impact on the ability to upload files during testing.
