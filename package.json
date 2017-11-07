@@ -7,6 +7,7 @@
   "dependencies": {
     "storj-bridge": "storj/bridge",
     "storj-complex": "storj/complex",
+    "storj-billing": "storj/billing",
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-error-types": "storj/service-error-types",

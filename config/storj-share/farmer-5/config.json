@@ -7,7 +7,7 @@
   ],
   "maxOfferConcurrency": 16,
   "bridges": [{
-    "url": "http://localhost:8080",
+    "url": "http://localhost:6382",
     "extendedKey": "xpub6ABDixD5jpQUDWNzHFh2WgAuANKDeTHmeXqLYaXsUuzpvfN8ZvbfBMXXbYkoq1kCvvpbiNE9zAzeC9VQh8dMNDb8mjc8cUh8F4jaUmFkyjr"
   }],
   "seedList": [

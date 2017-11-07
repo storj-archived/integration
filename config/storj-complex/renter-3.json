@@ -21,7 +21,7 @@
       },
       "maxTunnels": 0,
       "seedList": [],
-      "bridgeUri": "http://localhost:8080",
+      "bridgeUri": "http://localhost:6382",
       "maxConnections": 250
     }
   }

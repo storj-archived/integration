@@ -13,6 +13,11 @@ service mongod start
 pm2 start -n bridge $root_dir/bin/storj-bridge -- -c $root_dir/config/storj-bridge/config.json -d $root_dir/config/storj-bridge
 pm2 start -n monitor $root_dir/bin/storj-monitor -- -c $root_dir/config/storj-bridge/monitor.json
 
+#billing
+$root_dir/config/storj-billing/setup.sh
+pm2 start -n billing $root_dir/bin/storj-billing
+pm2 start -n billing-importer $root_dir/bin/storj-billing-importer
+
 #storjrenters
 pm2 start -n landlord $root_dir/bin/storj-complex -- -c $root_dir/config/storj-complex/landlord.json
 pm2 start -n renter-1 $root_dir/bin/storj-complex -- -c $root_dir/config/storj-complex/renter-1.json
