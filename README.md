@@ -35,7 +35,7 @@ docker start -a -i <hash_of_container>
 To run a *sandbox* test network:
 
 First edit the file at `./config/storj-bridge/config.json` to point to a
-email server, so that you can test the mailer and registration.
+email server within the container, so that you can test the mailer and registration.
 
 And then run this script to start everything *(16 farmers, 6 renters and 1 bridge)*:
 ```bash
@@ -84,6 +84,33 @@ STORJ_BRIDGE=http://localhost:6382 ./src/storj add-bucket
 STORJ_BRIDGE=http://localhost:6382 ./src/storj upload-file <bucket_hash> <filename>
 STORJ_BRIDGE=http://localhost:6382 ./src/storj download-file <bucket_hash> <file_hash>
 ```
+
+## Testing Bridge GUI
+
+Update stripe key for billing config at `./config/storj-billing/config` within the container to have a test key:
+```
+export STRIPE_KEY="sk_test_*******************"
+```
+
+After cloning https://github.com/storj/bridge-gui-vue externally:
+
+```
+cd bridge-gui-vue
+npm install
+```
+
+And add a `.env` file to the base directory of `bridge-gui-vue` with:
+
+```
+STRIPE_PUBLISHABLE_KEY="pk_test_*******************"
+```
+
+And start the gui development server:
+```
+npm run dev
+```
+
+Note: The default settings should use port 6382 for bridge and 3000 for billing and connect by default.
 
 ## Troubleshooting
 
