@@ -5,7 +5,7 @@
     "storjshare-start": "./bin/storjshare-start"
   },
   "dependencies": {
-    "storj-bridge": "braydonf/storj-bridge#3d84e9dc69492557920073e430363b4ba952bb45",
+    "storj-bridge": "braydonf/storj-bridge#7a0010f71b45225e1194560ee614201bbf262124",
     "storj-complex": "storj/complex",
     "storj-billing": "storj/billing",
     "storj-lib": "braydonf/storj-lib#c252a77e25ab6edc2569cacba75456e7d0a0577a",
