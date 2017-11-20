@@ -12,6 +12,7 @@ service mongod start
 #storjbridge
 pm2 start -n bridge $root_dir/bin/storj-bridge -- -c $root_dir/config/storj-bridge/config.json -d $root_dir/config/storj-bridge
 pm2 start -n monitor $root_dir/bin/storj-monitor -- -c $root_dir/config/storj-bridge/monitor.json
+pm2 start -n cron $root_dir/bin/storj-cron -- -c $root_dir/config/storj-bridge/config.json
 
 #billing
 source $root_dir/config/storj-billing/config
