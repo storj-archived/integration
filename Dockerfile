@@ -38,5 +38,5 @@ EXPOSE 9013
 EXPOSE 9014
 EXPOSE 9015
 EXPOSE 9016
-RUN echo "export STORJ_BRIDGE=\"http://localhost:8080\"" >> /root/.bashrc
+RUN echo "export STORJ_BRIDGE=\"http://localhost:6382\"" >> /root/.bashrc
 RUN echo "export STORJ_ALLOW_LOOPBACK=\"true\"" >> /root/.bashrc
