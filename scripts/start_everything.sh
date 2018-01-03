@@ -14,9 +14,9 @@ pm2 start -n bridge $root_dir/bin/storj-bridge -- -c $root_dir/config/storj-brid
 pm2 start -n monitor $root_dir/bin/storj-monitor -- -c $root_dir/config/storj-bridge/monitor.json
 
 #billing
-source $root_dir/config/storj-billing/config
-pm2 start -n billing $root_dir/bin/storj-billing
-pm2 start -n billing-importer $root_dir/bin/storj-billing-importer
+#source $root_dir/config/storj-billing/config
+#pm2 start -n billing $root_dir/bin/storj-billing
+#pm2 start -n billing-importer $root_dir/bin/storj-billing-importer
 
 #storjrenters
 pm2 start -n landlord $root_dir/bin/storj-complex -- -c $root_dir/config/storj-complex/landlord.json
