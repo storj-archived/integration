@@ -8,7 +8,7 @@ RUN apt-get install -y mongodb-org rabbitmq-server redis-server build-essential 
 ADD https://raw.githubusercontent.com/mongodb/mongo/v3.2/debian/init.d /etc/init.d/mongod
 RUN chmod +x /etc/init.d/mongod
 WORKDIR /root
-RUN wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+RUN wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 RUN source /root/.nvm/nvm.sh; \
     nvm install v6; \
     nvm alias default v6; \
